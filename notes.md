@@ -4,11 +4,12 @@
 
 - setup maze generator
 - get maze representation in program
-- create junction nodes
+    - use 1's and 0's to represent the map
+- ~~create junction nodes~~
 - implement algorithms
     - path finding
         - a*
-        - dijkstra
+        - ~~dijkstra~~
     - priority queue
     - catch edge cases, for example:
         - there is no path to the end
