@@ -10,6 +10,8 @@
         - a*
         - dijkstra
     - priority queue
+    - catch edge cases, for example:
+        - there is no path to the end
 - implement decision making
     - how do we pick a path when there are multiple same length paths
 - print out shortest path
