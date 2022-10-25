@@ -1,0 +1,3 @@
+/run/media/mammadu/storage/code/qwasar/my_mouse/build/CMakeFiles/my_mouse.dir
+/run/media/mammadu/storage/code/qwasar/my_mouse/build/CMakeFiles/edit_cache.dir
+/run/media/mammadu/storage/code/qwasar/my_mouse/build/CMakeFiles/rebuild_cache.dir

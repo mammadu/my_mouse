@@ -6,7 +6,7 @@ else
 	entry = rand(width - 4) + 2
 	entry2 = rand(width - 4) + 2
 #	exit2 = rand(width - 4) + 2 
-	puts("#{height}x#{width}#{ARGV[2]}")
+	puts("#{height}x#{width} #{ARGV[2]}")
 	height.times do |y|
 		width.times do |x|
 			if y == 0 && x == entry

@@ -14,7 +14,14 @@
         3. path
         4. start
         5. finish
+    - for example ```ruby maze_generator.rb 10 20 "* o12"```
 
 ## How to run
 
+## Todo
+
+- parse maze_parameters to make matrix representation
+
 ## References
+
+- how to read lines https://pubs.opengroup.org/onlinepubs/9699919799/functions/getdelim.html

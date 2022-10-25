@@ -17,6 +17,10 @@
     - how do we pick a path when there are multiple same length paths
 - print out shortest path
 
+## todo
+
+- add C linter
+
 ## questions
 
 - what is C?
