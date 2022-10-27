@@ -18,6 +18,15 @@
 
 ## How to run
 
+### linux
+
+1. navigate to the base folder of the project
+2. make a map
+3. in the terminal type ```make```
+4. navigate to the build directory
+5. in the terminal type ```make```
+6. in the terminal run ```./my_mouse```
+
 ## Todo
 
 - parse maze_parameters to make matrix representation

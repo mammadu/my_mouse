@@ -1,10 +1,16 @@
 # notes
 
-## tasks
+## completed tasks
 
 - setup maze generator
+
+## in progress tasks
+
 - get maze representation in program
     - use 1's and 0's to represent the map
+
+## garage
+
 - ~~create junction nodes~~
 - implement algorithms
     - path finding
@@ -17,9 +23,13 @@
     - how do we pick a path when there are multiple same length paths
 - print out shortest path
 
-## todo
+## extra credit
 
+- figure out how to use cmake on windows
 - add C linter
+- add testing framework (googletest?)
+- add memory leak testing capabilites
+    - how to implement with cmake?
 
 ## questions
 
