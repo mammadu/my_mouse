@@ -14,7 +14,7 @@
         3. path
         4. start
         5. finish
-    - for example ```ruby maze_generator.rb 10 20 "* o12"```
+    - for example ```ruby maze_generator.rb 10 20 "* o12" > "maze.txt"```
 
 ## How to run
 
