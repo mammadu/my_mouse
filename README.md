@@ -2,10 +2,16 @@
 
 ## Requirments
 
+### general
+
 - ruby
 - C
 - cmake
 - make
+
+### Windows
+
+- MinGW
 
 ## How to make maps
 
