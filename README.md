@@ -1,9 +1,11 @@
 # my_mouse
 
-
 ## Requirments
 
 - ruby
+- C
+- cmake
+- make
 
 ## How to make maps
 
