@@ -28,8 +28,10 @@
 - figure out how to use cmake on windows
 - add C linter
 - add testing framework (googletest?)
+- add github actions to automate testing on linux and windows
 - add memory leak testing capabilites
     - how to implement with cmake?
+        - may not need cmake if we just use a fsanitize=address compile flag
 
 ## questions
 
