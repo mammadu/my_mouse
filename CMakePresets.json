@@ -7,7 +7,7 @@
     },
     "configurePresets": [
         {
-            "name": "linux",
+            "name": "Linux",
             "displayName": "linux preset",
             "description": "preset for linux builds",
             "condition":{
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "windows",
+            "name": "Windows",
             "displayName": "windows preset",
             "description": "preset for windows builds using MinGW as the generator",
             "generator": "MinGW Makefiles",
