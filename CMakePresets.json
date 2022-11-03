@@ -1,0 +1,31 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": {
+      "major": 3,
+      "minor": 2,
+      "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "linux",
+            "displayName": "linux preset",
+            "description": "preset for linux builds",
+            "condition":{
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Linux"
+            }
+        },
+        {
+            "name": "windows",
+            "displayName": "windows preset",
+            "description": "preset for windows builds using MinGW as the generator",
+            "generator": "MinGW Makefiles",
+            "condition":{
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            }
+        }
+    ]
+}
