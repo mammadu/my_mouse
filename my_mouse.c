@@ -9,11 +9,10 @@ char* read_maze_parameters(char *path_to_file) {
     FILE *fp;
     char *line = NULL;
     size_t len = 0;
-    ssize_t read;
     fp = fopen(path_to_file, "r");
     if (fp == NULL)
         exit(1);
-    read = getline(&line, &len, fp);
+    getline(&line, &len, fp);
     return line;
 }
 
@@ -61,7 +60,7 @@ int main(){
     char* maze_parameters = read_maze_parameters("./maze.txt");
     int maze_width = find_maze_width(maze_parameters);
     printf("%d\n", maze_width);
-
     //proof of concept
     printf("%c\n", find_maze_symbols(maze_parameters, OBSTACLE));
+    // free(maze_parameters);
 }
