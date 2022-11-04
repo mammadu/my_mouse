@@ -6,7 +6,7 @@
 
 ## in progress tasks
 
-- get maze representation in program
+- virtualize maze representation in program
     - use 1's and 0's to represent the map
 
 ## garage
@@ -36,3 +36,4 @@
 ## questions
 
 - what is C?
+ 

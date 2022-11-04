@@ -3,6 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
+enum Positions {ZERO, OBSTACLE, EMPTY_SPC, PATH, START, END};
+
 char* read_maze_parameters(char *path_to_file) {
     FILE *fp;
     char *line = NULL;
@@ -44,12 +46,22 @@ int find_maze_width(char* maze_parameters){
     width_str[i] = '\0';
     int width = atoi(width_str);
     free(width_str);
-    return width;
-    
+    return width;   
 }
 
+// find_maze_symbols will retrieve the symbol of interest queried by the enum Positions
+char find_maze_symbols(char* maze_parameters, int symbol_of_interst){
+    int i = 0;
+    while (maze_parameters[i] != ' ') i++;
+    return maze_parameters[i+= symbol_of_interst];
+}
+
+
 int main(){
-    char* maze_parameters = read_maze_parameters("../maze.txt");
+    char* maze_parameters = read_maze_parameters("./maze.txt");
     int maze_width = find_maze_width(maze_parameters);
     printf("%d\n", maze_width);
+
+    //proof of concept
+    printf("%c\n", find_maze_symbols(maze_parameters, OBSTACLE));
 }
