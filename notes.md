@@ -3,6 +3,7 @@
 ## completed tasks
 
 - setup maze generator
+- figure out how to use cmake on windows
 
 ## in progress tasks
 
@@ -25,7 +26,6 @@
 
 ## extra credit
 
-- figure out how to use cmake on windows
 - add C linter
 - add testing framework (googletest?)
 - add github actions to automate testing on linux and windows
