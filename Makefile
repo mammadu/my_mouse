@@ -14,8 +14,6 @@ else
 	endif
 endif
 
-# all:
-# 	@echo $(OSFLAG)
 all:
 	cmake -B build -S . --preset $(OSFLAG)
 	make --directory=build 
