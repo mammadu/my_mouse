@@ -1,3 +1,6 @@
+#ifndef read_maze_H
+#define read_maze_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,3 +15,5 @@ int find_maze_height(char* maze_parameters);
 int find_maze_width(char* maze_parameters);
 
 char find_maze_symbols(char* maze_parameters, int symbol_of_interst);
+
+#endif

@@ -36,4 +36,3 @@
 ## questions
 
 - what is C?
- 

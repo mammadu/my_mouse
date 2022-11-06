@@ -1,6 +1,4 @@
-#include "./include/read_maze.h" 
-
-enum Positions {ZERO, OBSTACLE, EMPTY_SPC, PATH, START, END};
+#include "read_maze.h" 
 
 char* read_maze_parameters(char *path_to_file) {
     FILE *fp;

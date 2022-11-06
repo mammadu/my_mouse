@@ -1,4 +1,4 @@
-#include "./include/read_maze.h" 
+#include "read_maze.h"
 
 int main(){
     char* maze_parameters = read_maze_parameters("./maze.txt");
