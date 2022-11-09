@@ -16,4 +16,7 @@ endif
 
 all:
 	cmake -B build -S . --preset $(OSFLAG)
-	make --directory=build 
+	make --directory=build
+
+maze:
+	ruby maze_generator.rb 10 20 "* o12" > "maze.txt"
