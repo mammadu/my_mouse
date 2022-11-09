@@ -14,6 +14,6 @@ int find_maze_height(char* maze_parameters);
 
 int find_maze_width(char* maze_parameters);
 
-char find_maze_symbols(char* maze_parameters, int symbol_of_interst);
+char find_maze_symbols(char* maze_parameters, int symbol_of_interest);
 
 #endif
