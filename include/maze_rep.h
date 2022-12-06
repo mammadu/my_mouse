@@ -7,6 +7,8 @@
 #define START_VAL -2147483647
 #define END_VAL 2147483647
 
-int** create_matrix(char *path_to_file);
+int** init_matrix(char *path_to_file);
+
+int** populate_matrix(int** matrix, char* path_to_file);
 
 #endif

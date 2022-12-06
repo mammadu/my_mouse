@@ -8,6 +8,7 @@ char* read_maze_parameters(char *path_to_file) {
     if (fp == NULL)
         exit(1);
     getline(&line, &len, fp);
+    fclose(fp);
     return line;
 }
 
@@ -44,9 +45,9 @@ int find_maze_width(char* maze_parameters){
 }
 
 // find_maze_symbols will retrieve the symbol of interest queried by the enum Positions
-char find_maze_symbols(char* maze_parameters, int symbol_of_interst){
+char find_maze_symbols(char* maze_parameters, int symbol_of_interest){
     int i = 0;
     while (maze_parameters[i] != ' ') i++;
-    return maze_parameters[i+= symbol_of_interst];
+    return maze_parameters[i+= symbol_of_interest];
 }
 

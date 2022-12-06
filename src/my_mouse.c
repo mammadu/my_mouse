@@ -8,7 +8,9 @@ int main(){
     // //proof of concept
     // printf("%c\n", find_maze_symbols(maze_parameters, OBSTACLE));
     // // free(maze_parameters);
-    int** matrix = create_matrix("./maze.txt");
+    int** matrix = init_matrix("./maze.txt");
+    int** populated_matrix = populate_matrix(matrix, "./maze.txt");
+    
     matrix[0][0] = 42069;
     printf("%d\n", matrix[0][0]);
 }
